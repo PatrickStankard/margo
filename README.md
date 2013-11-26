@@ -4,6 +4,7 @@ margo
 Command-line tool for remote execution and deployment via SSH, written in Go
 
 ```bash
+go get github.com/PatrickStankard/margo
 $GOPATH/bin/margo -config "/tmp/config.sample.json" -job "Example Job"
 ```
 
