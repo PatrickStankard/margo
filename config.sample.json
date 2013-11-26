@@ -1,0 +1,34 @@
+{
+  "jobs": [{
+    "name": "Example Job",
+    "tasks": [{
+      "hosts": ["example.box.one:22", "example.box.two:22", "example.box.three:22"],
+      "key": "/Users/patrick/.ssh/id_rsa",
+      "commands": [{
+        "user": "patrick",
+        "exec": "echo \"1\""
+      }, {
+        "user": "patrick",
+        "exec": "echo \"2\""
+      }, {
+        "user": "patrick",
+        "exec": "echo \"3\""
+      }, {
+        "user": "patrick",
+        "exec": "echo \"4\""
+      }, {
+        "user": "patrick",
+        "exec": "echo \"5\""
+      }],
+      "options": {
+        "hosts": {
+          "sync": false
+        },
+        "commands": {
+          "sync": false
+        }
+      }
+    }]
+  }]
+}
+
