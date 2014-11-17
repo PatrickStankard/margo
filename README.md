@@ -1,7 +1,7 @@
 margo
 =====
 
-Command-line tool for remote execution and deployment via SSH, written in Go.
+A command-line tool for remote execution via SSH.
 
 ```bash
 go get github.com/PatrickStankard/margo
